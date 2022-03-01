@@ -1,0 +1,100 @@
+.container-fluid {
+     text-align: center;
+}
+/* COMIENZO HEADER */
+.header__logo {
+     width: 100px;
+}
+/* FIN HEADER */
+
+/* COMIENZO NAV */
+.nav-item {
+     font-size: 12px;
+}
+/* FIN NAV */
+
+/* COMIENZO MAIN INDEX */
+.cont__imagenes img {
+     width: 300px;
+     height: 200px;
+     margin-top: 10px;
+     border-radius: 3px;
+}
+/* FIN MAIN INDEX */
+
+/* COMIENZO MAIN CLASICA, MODERNA, AMERICANA */
+.cont__imagenes__modelos img {
+     width: 300px;
+     height: 200px;
+     margin-top: 10px;
+     border-radius: 3px;
+}
+/* FIN MAIN CLASICA, MODERNA, AMERICANA */
+
+/* COMIENZO MAIN NOSOTROS */
+.nosotros__texto {
+     text-align: justify;
+}
+
+.nosotros__texto h2 {
+     text-align: center;
+     margin-bottom: 20px;
+}
+/* FIN MAIN NOSOTROS */
+
+/* COMIENZO FOOTER */
+footer {
+     margin-top: 5px;
+}
+
+.logo-foot img {
+     width: 50px;
+}
+
+.redes-foot {
+     font-size: 12px;
+}
+/* FIN FOOTER */
+
+/* VISTA DESKTOP */ 
+@media (min-width: 800px) {
+
+/* COMIENZO NAV */
+.nav-item {
+     font-size: 20px;
+}
+/* FIN NAV */
+
+/* COMIENZO MAIN INDEX */
+.cont__imagenes img {
+     width: 550px;
+     height: 380px;
+     margin-top: 30px;
+     border-radius: 3px;
+}
+/* FIN MAIN INDEX */
+
+/* COMIENZO MAIN CLASICA, MODERNA, AMERICANA */
+.cont__imagenes__modelos img {
+     width: 550px;
+     height: 380px;
+     margin-top: 10px;
+     border-radius: 3px;
+}
+/* FIN MAIN CLASICA, MODERNA, AMERICANA */
+
+/* COMIENZO MAIN CONTACTO/FORM */
+.form-group input {
+     margin: auto;
+     width: 400px;
+}
+/* FIN MAIN CONTACTO/FORM */
+
+/* COMIENZO MAIN NOSOTROS/VIDEO */
+.nosotros__video iframe{
+     margin-top: 25px;
+     margin-bottom: 25px;
+     width: 500px;
+}
+/* FIN MAIN NOSOTROS/VIDEO */
+}
